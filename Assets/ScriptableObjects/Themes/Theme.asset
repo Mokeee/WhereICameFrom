@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d4b10f09e2d8e4ca46474e21f386f3, type: 3}
+  m_Name: Theme
+  m_EditorClassIdentifier: Assembly-CSharp::Theme
+  titleTextColor: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
+  subtitleTextColor: {r: 0.6509434, g: 0.2598861, b: 0.03991636, a: 1}
+  contentTextColor: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
+  buttonTextColor: {r: 1, g: 1, b: 1, a: 1}
+  linkTextColor: {r: 0.12495552, g: 0.3506391, b: 0.6792453, a: 1}
+  titleFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  subtitleFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  contentFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  buttonFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  titleStyle: 33
+  subtitleStyle: 2
+  contentStyle: 0
+  buttonStyle: 1
+  defaultButton:
+    m_NormalColor: {r: 0.4811321, g: 0.015394563, b: 0, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.7978909, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0.97391784, b: 0.33490568, a: 1}
+    m_SelectedColor: {r: 1, g: 0.43189976, b: 0, a: 1}
+    m_DisabledColor: {r: 0.2735849, g: 0.23616055, b: 0.23616055, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  confirmButton:
+    m_NormalColor: {r: 0.5840796, g: 0.8867924, b: 0.55633676, a: 1}
+    m_HighlightedColor: {r: 0.24924533, g: 1, b: 0.18396229, a: 1}
+    m_PressedColor: {r: 0.061320692, g: 0.735849, b: 0, a: 1}
+    m_SelectedColor: {r: 0.058333524, g: 0.4528302, b: 0.019223915, a: 1}
+    m_DisabledColor: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  denyButton:
+    m_NormalColor: {r: 1, g: 0.5137255, b: 0.5137255, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.25943398, b: 0.25943398, a: 1}
+    m_PressedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_SelectedColor: {r: 0.3773585, g: 0.04805981, b: 0.04805981, a: 1}
+    m_DisabledColor: {r: 0.27450982, g: 0.23529413, b: 0.23529413, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1

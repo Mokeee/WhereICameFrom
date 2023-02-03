@@ -1,0 +1,144 @@
+{
+    "locales": [
+        {
+            "keyword": "dialog_001_content",
+            "translation": "Lorem ipsum dolor sit amet!"
+        },
+        {
+            "keyword": "dialog_001_header",
+            "translation": "<link=\"0\">Titel</link>"
+        },
+        {
+            "keyword": "dialog_001_subtitle",
+            "translation": "Subtitle"
+        },
+        {
+            "keyword": "generic_close",
+            "translation": "Close"
+        },
+        {
+            "keyword": "generic_ok",
+            "translation": "OK"
+        },
+        {
+            "keyword": "loadingscreen_finished",
+            "translation": "Press \"space\" to continue..."
+        },
+        {
+            "keyword": "loadingscreen_header",
+            "translation": "Loading..."
+        },
+        {
+            "keyword": "loadingscreen_tip_001",
+            "translation": "Do not piss against the wind!"
+        },
+        {
+            "keyword": "loadingscreen_tip_002",
+            "translation": "Center yourself"
+        },
+        {
+            "keyword": "loadingscreen_tip_003",
+            "translation": "Fun is the center of Gloria: Race of Nations "
+        },
+        {
+            "keyword": "loadingscreen_tip_004",
+            "translation": "Leave your PC if your neighbours can hear you swear"
+        },
+        {
+            "keyword": "loadingscreen_tip_005",
+            "translation": "Play Gloria: Race of Nations together with friends, but in a way that you would like to play again another time around"
+        },
+        {
+            "keyword": "loadingscreen_tip_006",
+            "translation": "Greed is no adornment"
+        },
+        {
+            "keyword": "mainmenu_action_01",
+            "translation": "News"
+        },
+        {
+            "keyword": "mainmenu_action_02",
+            "translation": "Match List"
+        },
+        {
+            "keyword": "mainmenu_action_03",
+            "translation": "Create Game"
+        },
+        {
+            "keyword": "mainmenu_dialog_creation_content",
+            "translation": "You will soon be able to create games here"
+        },
+        {
+            "keyword": "mainmenu_dialog_creation_header",
+            "translation": "Create a Game"
+        },
+        {
+            "keyword": "mainmenu_dialog_list_content",
+            "translation": "Soon you will herein find all open lobbies"
+        },
+        {
+            "keyword": "mainmenu_dialog_list_header",
+            "translation": "Match List"
+        },
+        {
+            "keyword": "mainmenu_dialog_news_content",
+            "translation": "See all news in the feed soon"
+        },
+        {
+            "keyword": "mainmenu_dialog_news_header",
+            "translation": "News"
+        },
+        {
+            "keyword": "mainmenu_settings_001",
+            "translation": "Test-EN"
+        },
+        {
+            "keyword": "mainmenu_settings_002",
+            "translation": "Another test"
+        },
+        {
+            "keyword": "mainmenu_settings_003",
+            "translation": "Nice thing"
+        },
+        {
+            "keyword": "mainmenu_settings_004",
+            "translation": "Nice Editor"
+        },
+        {
+            "keyword": "mainmenu_settings_content",
+            "translation": "Here you could see your settings"
+        },
+        {
+            "keyword": "mainmenu_settings_header",
+            "translation": "Settings"
+        },
+        {
+            "keyword": "tooltip_0",
+            "translation": "Another <link=0>Tooltip</link>"
+        },
+        {
+            "keyword": "tooltip_button_001",
+            "translation": "This is a button"
+        },
+        {
+            "keyword": "tooltip_close",
+            "translation": "Close Dialog"
+        },
+        {
+            "keyword": "tooltip_generic_close",
+            "translation": "Close"
+        },
+        {
+            "keyword": "tooltip_mainmenu_exit",
+            "translation": "Close Game"
+        },
+        {
+            "keyword": "tooltip_mainmenu_settings",
+            "translation": "Settings"
+        },
+        {
+            "keyword": "tooltip_test",
+            "translation": "A <link=0>Tooltip</link>"
+        }
+    ]
+}

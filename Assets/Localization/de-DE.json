@@ -1,0 +1,144 @@
+{
+    "locales": [
+        {
+            "keyword": "dialog_001_content",
+            "translation": "Lorem ipsum dolor sit amet!"
+        },
+        {
+            "keyword": "dialog_001_header",
+            "translation": "<link=\"0\">Titel</link>"
+        },
+        {
+            "keyword": "dialog_001_subtitle",
+            "translation": "Untertitel"
+        },
+        {
+            "keyword": "generic_close",
+            "translation": "Schließen"
+        },
+        {
+            "keyword": "generic_ok",
+            "translation": "Okay"
+        },
+        {
+            "keyword": "loadingscreen_finished",
+            "translation": "Drücke Leertaste um fortzufahren..."
+        },
+        {
+            "keyword": "loadingscreen_header",
+            "translation": "Lade..."
+        },
+        {
+            "keyword": "loadingscreen_tip_001",
+            "translation": "Pinkel niemals gegen den Wind!"
+        },
+        {
+            "keyword": "loadingscreen_tip_002",
+            "translation": "Finde deine innere Mitte"
+        },
+        {
+            "keyword": "loadingscreen_tip_003",
+            "translation": "In Gloria: Race of Nations geht es um Spaß"
+        },
+        {
+            "keyword": "loadingscreen_tip_004",
+            "translation": "Wenn deine Nachbarn dich fluchen hören, mach den Rechner aus"
+        },
+        {
+            "keyword": "loadingscreen_tip_005",
+            "translation": "Spiel Gloria: Race of Nations mit Freunden, aber so, dass ihr danach nochmal zusammen spielen wollt"
+        },
+        {
+            "keyword": "loadingscreen_tip_006",
+            "translation": "Gier ist keine Zier"
+        },
+        {
+            "keyword": "mainmenu_action_01",
+            "translation": "Neuigkeiten"
+        },
+        {
+            "keyword": "mainmenu_action_02",
+            "translation": "Liste"
+        },
+        {
+            "keyword": "mainmenu_action_03",
+            "translation": "Spiel erstellen"
+        },
+        {
+            "keyword": "mainmenu_dialog_creation_content",
+            "translation": "Hier werden Sie bald Ihre Spiele erstellen können"
+        },
+        {
+            "keyword": "mainmenu_dialog_creation_header",
+            "translation": "Spiel erstellen"
+        },
+        {
+            "keyword": "mainmenu_dialog_list_content",
+            "translation": "Bald werden Sie hier alle offenen Spiele sehen"
+        },
+        {
+            "keyword": "mainmenu_dialog_list_header",
+            "translation": "Spielliste"
+        },
+        {
+            "keyword": "mainmenu_dialog_news_content",
+            "translation": "Sehen Sie alle Neuigkeiten bald im Feed"
+        },
+        {
+            "keyword": "mainmenu_dialog_news_header",
+            "translation": "Neuigkeiten"
+        },
+        {
+            "keyword": "mainmenu_settings_001",
+            "translation": "Test"
+        },
+        {
+            "keyword": "mainmenu_settings_002",
+            "translation": "Noch ein Test"
+        },
+        {
+            "keyword": "mainmenu_settings_003",
+            "translation": "Coole Sache"
+        },
+        {
+            "keyword": "mainmenu_settings_004",
+            "translation": "Schöner Editor"
+        },
+        {
+            "keyword": "mainmenu_settings_content",
+            "translation": "Hier könnten Ihre Einstellungen sein"
+        },
+        {
+            "keyword": "mainmenu_settings_header",
+            "translation": "Einstellungen"
+        },
+        {
+            "keyword": "tooltip_0",
+            "translation": "Noch ein <link=0>Tooltip</link>"
+        },
+        {
+            "keyword": "tooltip_button_001",
+            "translation": "Dies ist eine Schaltfläche"
+        },
+        {
+            "keyword": "tooltip_close",
+            "translation": "Dialog schließen"
+        },
+        {
+            "keyword": "tooltip_generic_close",
+            "translation": "Schließen"
+        },
+        {
+            "keyword": "tooltip_mainmenu_exit",
+            "translation": "Beenden"
+        },
+        {
+            "keyword": "tooltip_mainmenu_settings",
+            "translation": "Einstellungen"
+        },
+        {
+            "keyword": "tooltip_test",
+            "translation": "Ein <link=0>Tooltip</link>"
+        }
+    ]
+}
