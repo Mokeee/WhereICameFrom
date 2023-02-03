@@ -133,7 +133,8 @@ public class Dialog : MonoBehaviour, IDialog
         sceneLocalizer.TranslateText(headerText);
         sceneLocalizer.TranslateText(contentText);
 
-        flavorImage.sprite = content.image;
+        if(flavorImage != null && content.image != null)
+            flavorImage.sprite = content.image;
     }
 
     private IEnumerator FadeIn()

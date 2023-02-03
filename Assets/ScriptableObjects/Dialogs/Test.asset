@@ -9,6 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 043728055746cfd48915b720525fdd62, type: 3}
-  m_Name: SceneSwitchChannel
+  m_Script: {fileID: 11500000, guid: ef1a30f6068ce1e49bb407e53f8e4701, type: 3}
+  m_Name: Test
   m_EditorClassIdentifier: 
+  header: PrometheOS
+  subtitle: 
+  content: test
+  image: {fileID: 0}

@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CanvasGroup))]
 public class DraggableDialog : Dialog, IDraggable
 {
+    public RectTransform hitbox;
     private Vector2 offset;
 
     // Start is called before the first frame update
@@ -23,6 +24,13 @@ public class DraggableDialog : Dialog, IDraggable
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (hitbox != null)
+            if (!RectTransformUtility.RectangleContainsScreenPoint(hitbox, Mouse.current.position.ReadValue()))
+            {
+                eventData.pointerDrag = null;
+                return;
+            }
+        
         offset = (Vector2)transform.position - Mouse.current.position.ReadValue();
 
         transform.SetAsLastSibling();
