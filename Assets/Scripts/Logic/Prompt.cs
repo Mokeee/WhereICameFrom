@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
-using static TMPro.TMP_InputField;
 
 public class Prompt : MonoBehaviour
 {
@@ -34,5 +33,7 @@ public class Prompt : MonoBehaviour
     {
         if (folder.TryKeyword(input))
             OnClosePrompt.Invoke();
+        else
+            GetComponent<UITransformAnimator>().StartAnimationForward();
     }
 }

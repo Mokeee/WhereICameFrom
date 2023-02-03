@@ -130,6 +130,9 @@ public class Dialog : MonoBehaviour, IDialog
         headerText.SetNewKeyword(content.header);
         contentText.SetNewKeyword(content.content);
 
+        headerText.Text.text = content.header;
+        contentText.Text.text = content.content;
+
         sceneLocalizer.TranslateText(headerText);
         sceneLocalizer.TranslateText(contentText);
 
