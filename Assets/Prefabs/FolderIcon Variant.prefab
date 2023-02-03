@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 3712159033090792321, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: f47213af7e996497b96c4b5df3e6b613, type: 3}
+      objectReference: {fileID: 21300000, guid: 69b3cec8fb3593c49add813bcb170c7a, type: 3}
     - target: {fileID: 3712159033090792380, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -98,7 +98,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3712159033090792381, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_Name
-      value: FolderIcon
+      value: FolderIcon Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3712159033090792382, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -138,8 +138,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unlocked: 0
-  lockSprite: {fileID: 21300000, guid: 2bb4e96f5d0b02c468932d665a015c54, type: 3}
-  unlockSprite: {fileID: 21300000, guid: 88a01be2082444885aa54d39afb85dd8, type: 3}
+  lockSprite: {fileID: 21300000, guid: c7739a88169dacf41803f2d727e40eb9, type: 3}
+  unlockSprite: {fileID: 21300000, guid: 69b3cec8fb3593c49add813bcb170c7a, type: 3}
   spriteHolder: {fileID: 4562715595948004089}
   keyword: dymaxion
   OnShowPrompt:
