@@ -15,7 +15,7 @@ MonoBehaviour:
   titleTextColor: {r: 0, g: 0, b: 0, a: 1}
   subtitleTextColor: {r: 0, g: 0, b: 0, a: 1}
   contentTextColor: {r: 0, g: 0, b: 0, a: 1}
-  buttonTextColor: {r: 0, g: 0, b: 0, a: 1}
+  buttonTextColor: {r: 1, g: 1, b: 1, a: 1}
   linkTextColor: {r: 0, g: 0, b: 0, a: 1}
   titleFont: {fileID: 0}
   subtitleFont: {fileID: 0}

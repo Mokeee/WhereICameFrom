@@ -12,7 +12,7 @@ public class Dialog : MonoBehaviour, IDialog
     /// <summary>
     /// Curve used to fade the canvas group.
     /// </summary>
-    public AnimationCurve fadeCurve;
+    public AnimationCurve fadeCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
     /// <summary>
     /// Duration of the fading animation.
     /// </summary>
@@ -139,6 +139,7 @@ public class Dialog : MonoBehaviour, IDialog
 
     private IEnumerator FadeIn()
     {
+        transform.SetAsLastSibling();
         float deltaTime = 0;
         CanvasGroup canvasGroup = GetComponent<CanvasGroup>();
 
