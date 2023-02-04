@@ -5,4 +5,5 @@ using UnityEngine.EventSystems;
 
 public interface IDraggable : IDragHandler, IBeginDragHandler, IEndDragHandler
 {
+    void InterruptDrag();
 }

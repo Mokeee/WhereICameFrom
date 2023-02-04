@@ -9,6 +9,7 @@ public class DraggableDialog : Dialog, IDraggable
 {
     public RectTransform hitbox;
     private Vector2 offset;
+    private Vector2 startingPosition;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,11 @@ public class DraggableDialog : Dialog, IDraggable
 
     }
 
+    public void InterruptDrag()
+    {
+        transform.position = startingPosition;
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (hitbox != null)
@@ -30,8 +36,9 @@ public class DraggableDialog : Dialog, IDraggable
                 eventData.pointerDrag = null;
                 return;
             }
-        
-        offset = (Vector2)transform.position - Mouse.current.position.ReadValue();
+
+        startingPosition = (Vector2)transform.position;
+        offset = startingPosition - Mouse.current.position.ReadValue();
 
         if (flavorImage != null)
             flavorImage.color = new Color(1, 1, 1, 0.5f);
