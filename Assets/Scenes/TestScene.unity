@@ -2967,7 +2967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDelay: 2
-  skipStartUp: 1
+  skipStartUp: 0
   backgroundImage: {fileID: 1397681226}
   reflectionOverlay: {fileID: 163730863}
   borderImage: {fileID: 1730612748}
@@ -4953,7 +4953,7 @@ PrefabInstance:
     - target: {fileID: 3233057049827598635, guid: 2a52453d04dbb264a8a4bcca84ab9e56, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1cdb51e24800db64cb6454e0df3ceae5, type: 3}
+      objectReference: {fileID: 21300000, guid: 7ece3b9672a5c8042b56575b92df505a, type: 3}
     - target: {fileID: 5690586628148969910, guid: 2a52453d04dbb264a8a4bcca84ab9e56, type: 3}
       propertyPath: m_Name
       value: Inauguration
@@ -9133,15 +9133,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4009498740900145888, guid: 074370e0cb2e48143877fe76232af970, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4009498740900145888, guid: 074370e0cb2e48143877fe76232af970, type: 3}
-      propertyPath: m_SizeDelta.y
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4009498740900145888, guid: 074370e0cb2e48143877fe76232af970, type: 3}
-      propertyPath: m_AnchoredPosition.x
+      propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009498740900145888, guid: 074370e0cb2e48143877fe76232af970, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4009498740900145888, guid: 074370e0cb2e48143877fe76232af970, type: 3}
       propertyPath: m_AnchoredPosition.y
