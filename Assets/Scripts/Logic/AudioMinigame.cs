@@ -19,7 +19,6 @@ public class AudioMinigame : MonoBehaviour
 
     public void RegisterAnswer(int index)
     {
-        Debug.Log(index);
         current.Add(index);
 
         if (current.Count == solution.Count)
