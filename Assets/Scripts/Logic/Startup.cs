@@ -1,16 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class Startup : MonoBehaviour
 {
     public float textDelay;
-    public float animationDelay;
 
     public CanvasGroup backgroundImage;
     public Image reflectionOverlay;
+    public Image borderImage;
     public GameObject screenParent;
+
+    public UnityEvent OnStartBoot = new UnityEvent();
+    public UnityEvent OnShowLogIn = new UnityEvent();
+    public UnityEvent OnStartUpLogIn = new UnityEvent();
 
     [Header("Animation")]
     /// <summary>
@@ -27,7 +32,7 @@ public class Startup : MonoBehaviour
     void Start()
     {
         screenParent.SetActive(false);
-        StartCoroutine(StartUpSequenceAnimation());
+        StartCoroutine(StartUpSequenceIntro());
     }
 
     private IEnumerator StartUpSequenceIntro()
@@ -38,22 +43,36 @@ public class Startup : MonoBehaviour
         //Show Intro Text
 
         //Wait For End of Text
+        StartOSBoot();
     }
 
-    private IEnumerator StartUpSequenceAnimation()
+    public void StartOSBoot()
     {
-        yield return new WaitForSeconds(animationDelay);
-        //Show OS Loadup
-        //Animate LogIn
+        OnStartBoot.Invoke();
+    }
+
+    public void ShowLogIn()
+    {
+         OnShowLogIn.Invoke();
+    }
+
+    public void StartLogIn()
+    {
+        StartCoroutine(StartUpSequenceLoggedInAnimation());
+    }
+
+    private IEnumerator StartUpSequenceLoggedInAnimation()
+    {
         //Toggle backgrounds
         float deltaTime = 0;
 
         reflectionOverlay.color = new Color(1, 1, 1, 0.15f);
-
+        Color targetBorderColor = new Color(128/255f, 164/255f, 196/255f);
         while (deltaTime < animationDuration)
         {
             backgroundImage.alpha = fadeCurve.Evaluate(deltaTime / animationDuration);
             reflectionOverlay.color = new Color(1, 1, 1, Mathf.Lerp(0.15f, 0.8f, deltaTime / animationDuration));
+            borderImage.color = Color.Lerp(Color.white, targetBorderColor, deltaTime / animationDuration);
             deltaTime += Time.fixedDeltaTime;
             yield return null;
         }
