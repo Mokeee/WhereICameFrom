@@ -46,6 +46,11 @@ public class TextTyper : MonoBehaviour
         if (splits == 0)
             snippets.Add(text);
 
+        ShowText();
+    }
+
+    public void ShowText()
+    {
         deltaTime = 0;
         showText = true;
         OnStartText.Invoke(dialogueStartEvent);

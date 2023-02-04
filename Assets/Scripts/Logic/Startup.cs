@@ -15,6 +15,7 @@ public class Startup : MonoBehaviour
     public Image borderImage;
     public GameObject screenParent;
 
+    public UnityEvent OnStartIntro = new UnityEvent();
     public UnityEvent OnStartBoot = new UnityEvent();
     public UnityEvent OnShowLogIn = new UnityEvent();
     public UnityEvent OnStartUpLogIn = new UnityEvent();
@@ -49,7 +50,7 @@ public class Startup : MonoBehaviour
         //Show Intro Text
 
         //Wait For End of Text
-        StartOSBoot();
+        OnStartIntro.Invoke();
     }
 
     public void StartOSBoot()
