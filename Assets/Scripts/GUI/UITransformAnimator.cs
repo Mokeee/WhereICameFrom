@@ -33,12 +33,20 @@ public class UITransformAnimator : MonoBehaviour
 
     private Queue<Coroutine> coroutines = new Queue<Coroutine>();
 
+    public void StartAnimationForward()
+    {
+        StartAnimationForward(null, animationDuration);
+    }
     public void StartAnimationForward(RectTransform rectTransform = null, float animationDuration = 1.0f)
     {
         CheckCoroutines(rectTransform);
         coroutines.Enqueue(StartCoroutine(Animate(rectTransform, animationDuration, 0, 1)));
     }
 
+    public void StartAnimationBackward()
+    {
+        StartAnimationBackward(null, animationDuration);
+    }
     public void StartAnimationBackward(RectTransform rectTransform = null, float animationDuration = 1.0f)
     {
         CheckCoroutines(rectTransform);

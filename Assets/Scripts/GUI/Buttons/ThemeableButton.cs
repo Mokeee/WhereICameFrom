@@ -146,7 +146,7 @@ public class ThemeableButton : MonoBehaviour, ITooltipable, IPointerDownHandler,
                 selectionImage.color = button.colors.pressedColor;
             }
         }
-        else
-            GetComponent<Button>().onClick.Invoke();
+        //else
+            //GetComponent<Button>().onClick.Invoke();
     }
 }
