@@ -15,11 +15,85 @@ MonoBehaviour:
   Path: FMOD Project/whereicamefrom/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638110595276563074
+  lastModified: 638111382152292050
   FileSizes:
   - Name: Desktop
     Value: 1036
   Exists: 1
+--- !u!114 &-7557876548182834958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_ADA_first_words
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_ADA_first_words
+  Guid:
+    Data1: -226391323
+    Data2: 1223686302
+    Data3: 2045484205
+    Data4: 568999174
+  Banks:
+  - {fileID: -4165501768451518595}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10500
+--- !u!114 &-4165501768451518595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD Project/whereicamefrom/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638111382159173682
+  FileSizes:
+  - Name: Desktop
+    Value: 174624
+  Exists: 1
+--- !u!114 &-1714722560245285304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_note_03
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_note_03
+  Guid:
+    Data1: 1367323737
+    Data2: 1100786179
+    Data3: -267931495
+    Data4: -1615075206
+  Banks:
+  - {fileID: -4165501768451518595}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1497
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,14 +109,74 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 7319422345397239714}
   - {fileID: -8479195939530718497}
-  EditorEvents: []
+  - {fileID: -4165501768451518595}
+  EditorEvents:
+  - {fileID: 5262399972892100039}
+  - {fileID: 7935077785587406810}
+  - {fileID: -1714722560245285304}
+  - {fileID: -7557876548182834958}
+  - {fileID: 2165304148741439185}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8479195939530718497}
   StringsBanks:
   - {fileID: 7319422345397239714}
-  cacheTime: 638110595276613799
+  cacheTime: 638111382159173682
   cacheVersion: 131601
+--- !u!114 &2165304148741439185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_note_01
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_note_01
+  Guid:
+    Data1: 1627344114
+    Data2: 1229854455
+    Data3: 1475170204
+    Data4: -595416854
+  Banks:
+  - {fileID: -4165501768451518595}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1497
+--- !u!114 &5262399972892100039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_note_04
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_note_04
+  Guid:
+    Data1: -2107789528
+    Data2: 1320474262
+    Data3: -656218958
+    Data4: -336575190
+  Banks:
+  - {fileID: -4165501768451518595}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1497
 --- !u!114 &7319422345397239714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,8 +192,35 @@ MonoBehaviour:
   Path: FMOD Project/whereicamefrom/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638110595276613799
+  lastModified: 638111382152601235
   FileSizes:
   - Name: Desktop
-    Value: 712
+    Value: 972
   Exists: 1
+--- !u!114 &7935077785587406810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_note_02
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_note_02
+  Guid:
+    Data1: 1472529225
+    Data2: 1159474658
+    Data3: 498310
+    Data4: 1801660967
+  Banks:
+  - {fileID: -4165501768451518595}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1497
