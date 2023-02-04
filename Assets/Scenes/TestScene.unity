@@ -634,7 +634,7 @@ MonoBehaviour:
   textRenderer: {fileID: 122814968}
   deltaTime: 0
   showText: 0
-  interactable: 1
+  interactable: 0
   snippets: []
   OnStartText:
     m_PersistentCalls:
@@ -6419,7 +6419,7 @@ MonoBehaviour:
   textRenderer: {fileID: 203369162}
   deltaTime: 0
   showText: 0
-  interactable: 0
+  interactable: 1
   snippets:
   - 'Ok, starting archive systems '
   - 'Just another day at work '
