@@ -100,6 +100,14 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3559370362911691500, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3559370362911691500, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3559370362911691502, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -130,11 +138,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3559370362911691502, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 500
+      value: 610
       objectReference: {fileID: 0}
     - target: {fileID: 3559370362911691502, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 750
+      value: 900
       objectReference: {fileID: 0}
     - target: {fileID: 3559370362911691502, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
       propertyPath: m_LocalPosition.x

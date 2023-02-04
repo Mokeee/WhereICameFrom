@@ -55,6 +55,12 @@ public class Startup : MonoBehaviour
 
     public void StartOSBoot()
     {
+        StartCoroutine(DelayedStartOSBoot());
+    }
+
+    private IEnumerator DelayedStartOSBoot()
+    {
+        yield return new WaitForSeconds(1.5f);
         OnStartBoot.Invoke();
     }
 
