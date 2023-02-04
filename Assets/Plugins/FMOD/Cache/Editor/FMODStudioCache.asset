@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8880724364005044316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/file_hidden_audio
+  m_EditorClassIdentifier: 
+  Path: event:/file_hidden_audio
+  Guid:
+    Data1: 762052365
+    Data2: 1162400062
+    Data3: 1597708162
+    Data4: 1786157510
+  Banks:
+  - {fileID: -4165501768451518595}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 33878
 --- !u!114 &-8479195939530718497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,10 +89,10 @@ MonoBehaviour:
   Path: FMOD Project/whereicamefrom/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638111409940000000
+  lastModified: 638111464440000000
   FileSizes:
   - Name: Desktop
-    Value: 174624
+    Value: 441984
   Exists: 1
 --- !u!114 &-1714722560245285304
 MonoBehaviour:
@@ -116,12 +143,13 @@ MonoBehaviour:
   - {fileID: -1714722560245285304}
   - {fileID: -7557876548182834958}
   - {fileID: 2165304148741439185}
+  - {fileID: -8880724364005044316}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8479195939530718497}
   StringsBanks:
   - {fileID: 7319422345397239714}
-  cacheTime: 638111409940000000
+  cacheTime: 638111464440000000
   cacheVersion: 131601
 --- !u!114 &2165304148741439185
 MonoBehaviour:
@@ -192,10 +220,10 @@ MonoBehaviour:
   Path: FMOD Project/whereicamefrom/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638111409940000000
+  lastModified: 638111464440000000
   FileSizes:
   - Name: Desktop
-    Value: 972
+    Value: 1032
   Exists: 1
 --- !u!114 &7935077785587406810
 MonoBehaviour:

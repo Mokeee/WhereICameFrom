@@ -5938,23 +5938,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Path
-      value: 
+      value: event:/file_hidden_audio
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Guid.Data1
-      value: 0
+      value: 762052365
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Guid.Data2
-      value: 0
+      value: 1162400062
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Guid.Data3
-      value: 0
+      value: 1597708162
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Guid.Data4
-      value: 0
+      value: 1786157510
       objectReference: {fileID: 0}
     - target: {fileID: 6908098449248684016, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: m_AnchorMax.x
