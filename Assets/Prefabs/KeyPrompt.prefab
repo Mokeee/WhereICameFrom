@@ -1279,9 +1279,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd9807b415cffc408e57ac40b07f45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonType: 0
+  needsDoubleClick: 0
+  buttonType: 2
   tooltipKeyword: 
   backgroundImage: {fileID: 0}
+  selectionImage: {fileID: 0}
   clickSound: defaultClickSound
   hoverSound: defaultHoverSound
   pointerDownSound: 
@@ -1573,9 +1575,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd9807b415cffc408e57ac40b07f45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  needsDoubleClick: 0
   buttonType: 0
   tooltipKeyword: 
   backgroundImage: {fileID: 0}
+  selectionImage: {fileID: 0}
   clickSound: defaultClickSound
   hoverSound: defaultHoverSound
   pointerDownSound: 

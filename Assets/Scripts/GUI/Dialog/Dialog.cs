@@ -3,10 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(CanvasGroup))]
-public class Dialog : MonoBehaviour, IDialog
+public class Dialog : MonoBehaviour, IDialog, IPointerClickHandler
 {
     [Header("Animation")]
     /// <summary>
@@ -187,6 +188,11 @@ public class Dialog : MonoBehaviour, IDialog
     public void HideFromEvent()
     {
         Hide();
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        transform.SetAsLastSibling();
     }
 }
 
