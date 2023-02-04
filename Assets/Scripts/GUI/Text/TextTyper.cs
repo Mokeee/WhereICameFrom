@@ -12,6 +12,7 @@ public class TextTyper : MonoBehaviour
 
     public float deltaTime;
     public bool showText;
+    public bool interactable = true;
 
     private string dialogueStartEvent;
     private string dialogueStopEvent;
@@ -105,7 +106,7 @@ public class TextTyper : MonoBehaviour
             }
         }
 
-        if ((Input.GetKey(KeyCode.Return) || Input.GetMouseButtonDown(0)) && !enterLocked)
+        if (interactable && (Input.GetKey(KeyCode.Return) || Input.GetMouseButtonDown(0)) && !enterLocked)
         {
             enterLocked = true;
             EnterKeyFunction();

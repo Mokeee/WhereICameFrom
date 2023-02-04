@@ -17,6 +17,7 @@ public class AudioPlayer : MonoBehaviour
 
     private EventDescription eventDescription;
     private int clipLength;
+    int tpos = 0;
 
     public string playLabel;
     public string pauseLabel;
@@ -56,7 +57,6 @@ public class AudioPlayer : MonoBehaviour
 
     private void Update()
     {
-        int tpos = 0;
         instance.getTimelinePosition(out tpos);
         OnPlayback.Invoke(tpos / (clipLength * 1.0f));
 

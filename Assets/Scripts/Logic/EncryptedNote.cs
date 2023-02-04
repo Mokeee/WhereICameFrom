@@ -10,6 +10,7 @@ public class EncryptedNote : MonoBehaviour
     public string crypt;
 
     public bool encrypt;
+    public int skipToPosition;
 
     public TextMeshProUGUI note;
 
@@ -24,12 +25,19 @@ public class EncryptedNote : MonoBehaviour
         cleanfeed = note.text;
 
         encrypted = "";
+        int i = 0;
         foreach(var character in cleanfeed)
         {
-            if (character != ' ')
+            if (i <= skipToPosition)
+            {
+                encrypted += character;
+            }
+            else if (character != ' ')
                 encrypted += cryptChars[Random.Range(0, cryptChars.Length)];
             else
                 encrypted += " ";
+
+            i++;
         }
     }
 
