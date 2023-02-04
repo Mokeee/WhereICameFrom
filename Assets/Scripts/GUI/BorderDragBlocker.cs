@@ -7,7 +7,8 @@ public class BorderDragBlocker : MonoBehaviour, IPointerEnterHandler
 {
     public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("border");
+        if(eventData.pointerDrag != null)
+            eventData.pointerDrag.GetComponent<IDraggable>().InterruptDrag();
         eventData.pointerDrag = null;
     }
 }

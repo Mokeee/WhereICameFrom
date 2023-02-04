@@ -8,6 +8,12 @@ public class UIDragger : MonoBehaviour, IDraggable
 {
     public RectTransform hitbox;
     private Vector2 offset;
+    private Vector2 startingPosition;
+
+    public void InterruptDrag()
+    {
+        transform.position = startingPosition;
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -18,7 +24,8 @@ public class UIDragger : MonoBehaviour, IDraggable
                 return;
             }
 
-        offset = (Vector2)transform.position - Mouse.current.position.ReadValue();
+        startingPosition = (Vector2)transform.position;
+        offset = startingPosition - Mouse.current.position.ReadValue();
 
         transform.SetAsLastSibling();
     }
