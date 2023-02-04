@@ -1355,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sound Game
       objectReference: {fileID: 0}
+    - target: {fileID: 3559370362911691489, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
+      propertyPath: content
+      value: 
+      objectReference: {fileID: 11400000, guid: a86880690f14d334f9e30292544f4ab3, type: 2}
     - target: {fileID: 3559370362911691491, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
       propertyPath: m_Alpha
       value: 0
@@ -7603,6 +7607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ADA Sound
       objectReference: {fileID: 0}
+    - target: {fileID: 3110432988029689045, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
+      propertyPath: content
+      value: 
+      objectReference: {fileID: 11400000, guid: 0297102eaae34d342869686bbd0f0d0d, type: 2}
     - target: {fileID: 3110432988029689047, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: m_BlocksRaycasts
       value: 0
@@ -7774,6 +7782,10 @@ PrefabInstance:
     - target: {fileID: 6584746660818946813, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: m_Value
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6584746660818946813, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6584746660818946813, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState

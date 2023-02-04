@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef1a30f6068ce1e49bb407e53f8e4701, type: 3}
   m_Name: News
   m_EditorClassIdentifier: 
-  header: News - PrometheOS
+  header: The sending
   subtitle: 
   content: 
   image: {fileID: 0}
