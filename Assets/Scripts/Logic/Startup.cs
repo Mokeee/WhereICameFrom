@@ -97,5 +97,7 @@ public class Startup : MonoBehaviour
         //Give Player Control
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = true;
+
+        OnStartUpLogIn.Invoke();
     }
 }

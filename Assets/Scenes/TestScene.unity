@@ -563,8 +563,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bce588fb2cfbf1447a99ff8a21c2dd61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crypt: "\u03F5\u0409\u03C8\u03E2\u03D9\u039E\u03E4\u03CE\u03E1\u041C\u0422\u03DF\u03D5\u042D\u03DA\u0429\u0398\u037D\u039B"
+  crypt: qwertzuiasdfghjkyxcvbnm
   encrypt: 1
+  skipToPosition: 23
   note: {fileID: 88428870}
 --- !u!114 &88428873 stripped
 MonoBehaviour:
@@ -633,6 +634,7 @@ MonoBehaviour:
   textRenderer: {fileID: 122814968}
   deltaTime: 0
   showText: 0
+  interactable: 1
   snippets: []
   OnStartText:
     m_PersistentCalls:
@@ -2132,7 +2134,7 @@ PrefabInstance:
     - target: {fileID: 1707349022809765160, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ba345f2f643d842459447c374943401d, type: 3}
+      objectReference: {fileID: 21300000, guid: 725a16ffe5a070144a8744366bd1463b, type: 3}
     - target: {fileID: 3712159033090792380, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3080,7 +3082,19 @@ MonoBehaviour:
         m_CallState: 2
   OnStartUpLogIn:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2061559602}
+        m_TargetAssemblyTypeName: ThemeManager, Assembly-CSharp
+        m_MethodName: UpdateTheme
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   fadeCurve:
     serializedVersion: 2
     m_Curve:
@@ -4259,6 +4273,7 @@ MonoBehaviour:
   textRenderer: {fileID: 663654831}
   deltaTime: 0
   showText: 0
+  interactable: 1
   snippets: []
   OnStartText:
     m_PersistentCalls:
@@ -4709,8 +4724,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.59607846}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.8509804}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.78039217}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
     m_ColorMultiplier: 1
@@ -6400,6 +6415,7 @@ MonoBehaviour:
   textRenderer: {fileID: 203369162}
   deltaTime: 0
   showText: 0
+  interactable: 1
   snippets:
   - 'Ok, starting archive systems '
   - 'Just another day at work '
@@ -6664,8 +6680,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.59607846}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.8509804}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.78039217}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
     m_ColorMultiplier: 1
@@ -6857,8 +6873,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.59607846}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.8509804}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.78039217}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
     m_ColorMultiplier: 1
@@ -8298,7 +8314,11 @@ PrefabInstance:
     - target: {fileID: 3233057049827598635, guid: 2a52453d04dbb264a8a4bcca84ab9e56, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 54d226bfd3368ad4eb0e1c9b37316637, type: 3}
+      objectReference: {fileID: 21300000, guid: 6218b451df60b6c4585bfcc4fcd4ef1b, type: 3}
+    - target: {fileID: 5690586628148969909, guid: 2a52453d04dbb264a8a4bcca84ab9e56, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5690586628148969910, guid: 2a52453d04dbb264a8a4bcca84ab9e56, type: 3}
       propertyPath: m_Name
       value: News
@@ -8337,11 +8357,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5690586628148969912, guid: 2a52453d04dbb264a8a4bcca84ab9e56, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 610
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 5690586628148969912, guid: 2a52453d04dbb264a8a4bcca84ab9e56, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 900
+      value: 760
       objectReference: {fileID: 0}
     - target: {fileID: 5690586628148969912, guid: 2a52453d04dbb264a8a4bcca84ab9e56, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8649,7 +8669,7 @@ PrefabInstance:
     - target: {fileID: 1707349022809765160, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 4c9d45160f410084cbc2dc13e3fc7cd3, type: 3}
+      objectReference: {fileID: 21300000, guid: 725a16ffe5a070144a8744366bd1463b, type: 3}
     - target: {fileID: 3712159033090792380, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -9400,7 +9420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3712159034888597314, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_text
-      value: Note
+      value: News
       objectReference: {fileID: 0}
     - target: {fileID: 3712159034888597314, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
       propertyPath: m_fontColor.b
@@ -9827,8 +9847,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.59607846}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.8509804}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.78039217}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
     m_ColorMultiplier: 1
@@ -10497,6 +10517,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1744158970}
     m_Modifications:
+    - target: {fileID: 3635675402232887041, guid: a13d2b930d1f50b4db7fdd27b8f76a8a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635675402232887041, guid: a13d2b930d1f50b4db7fdd27b8f76a8a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635675402232887041, guid: a13d2b930d1f50b4db7fdd27b8f76a8a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635675402232887041, guid: a13d2b930d1f50b4db7fdd27b8f76a8a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3635675402232887071, guid: a13d2b930d1f50b4db7fdd27b8f76a8a, type: 3}
       propertyPath: m_text
       value: Enter Password
@@ -10726,9 +10762,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 279146806}
     m_Modifications:
+    - target: {fileID: 1974689571359718480, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21698111
+      objectReference: {fileID: 0}
+    - target: {fileID: 1974689571359718480, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
+      propertyPath: m_Color.g
+      value: 0.21698111
+      objectReference: {fileID: 0}
+    - target: {fileID: 1974689571359718480, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
+      propertyPath: m_Color.r
+      value: 0.21698111
+      objectReference: {fileID: 0}
     - target: {fileID: 3331939789861159027, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
       propertyPath: keyword
-      value: prometheos
+      value: magnaspes
       objectReference: {fileID: 0}
     - target: {fileID: 3331939789861159027, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
       propertyPath: OnShowPrompt.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
