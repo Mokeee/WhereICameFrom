@@ -3030,7 +3030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDelay: 2
-  skipStartUp: 1
+  skipStartUp: 0
   backgroundImage: {fileID: 1397681226}
   reflectionOverlay: {fileID: 163730863}
   borderImage: {fileID: 1730612748}
@@ -4273,7 +4273,7 @@ MonoBehaviour:
   textRenderer: {fileID: 663654831}
   deltaTime: 0
   showText: 0
-  interactable: 1
+  interactable: 0
   snippets: []
   OnStartText:
     m_PersistentCalls:
@@ -5956,6 +5956,10 @@ PrefabInstance:
       propertyPath: soundReference.Guid.Data4
       value: 1786157510
       objectReference: {fileID: 0}
+    - target: {fileID: 6584746660818946813, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6908098449248684016, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -6415,7 +6419,7 @@ MonoBehaviour:
   textRenderer: {fileID: 203369162}
   deltaTime: 0
   showText: 0
-  interactable: 1
+  interactable: 0
   snippets:
   - 'Ok, starting archive systems '
   - 'Just another day at work '
