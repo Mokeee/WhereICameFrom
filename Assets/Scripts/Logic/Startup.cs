@@ -8,6 +8,8 @@ public class Startup : MonoBehaviour
 {
     public float textDelay;
 
+    public bool skipStartUp;
+
     public CanvasGroup backgroundImage;
     public Image reflectionOverlay;
     public Image borderImage;
@@ -32,7 +34,11 @@ public class Startup : MonoBehaviour
     void Start()
     {
         screenParent.SetActive(false);
-        StartCoroutine(StartUpSequenceIntro());
+
+        if (!skipStartUp)
+            StartCoroutine(StartUpSequenceIntro());
+        else
+            StartCoroutine(StartUpSequenceLoggedInAnimation());
     }
 
     private IEnumerator StartUpSequenceIntro()

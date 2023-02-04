@@ -33,6 +33,9 @@ public class DraggableDialog : Dialog, IDraggable
         
         offset = (Vector2)transform.position - Mouse.current.position.ReadValue();
 
+        if (flavorImage != null)
+            flavorImage.color = new Color(1, 1, 1, 0.5f);
+
         transform.SetAsLastSibling();
     }
 
@@ -43,7 +46,8 @@ public class DraggableDialog : Dialog, IDraggable
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        throw new System.NotImplementedException();
+        if (flavorImage != null)
+            flavorImage.color = new Color(1, 1, 1, 1f);
     }
 
     public void SetContent(DialogContent content)
