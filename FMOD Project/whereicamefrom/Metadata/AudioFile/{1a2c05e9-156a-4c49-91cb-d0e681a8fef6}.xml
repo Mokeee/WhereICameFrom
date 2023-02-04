@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1a2c05e9-156a-4c49-91cb-d0e681a8fef6}">
+		<property name="assetPath">
+			<value>sfx_ADA_first_words.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.500500000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cd5ac714-2410-4afc-8a8c-11c76a37a55c}</destination>
+		</relationship>
+	</object>
+</objects>
