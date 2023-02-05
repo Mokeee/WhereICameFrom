@@ -8,7 +8,9 @@ public class Prompt : MonoBehaviour
 {
     public UnityEvent OnShowPrompt = new UnityEvent();
     public UnityEvent OnClosePrompt = new UnityEvent();
+    public UnityEvent OnError = new UnityEvent();
 
+    public TextMeshProUGUI placeholderText;
     public TMP_InputField inputText;
     private FolderUI folder;
     private string input;
@@ -26,6 +28,7 @@ public class Prompt : MonoBehaviour
     public void ShowPrompt(FolderUI requestingFolder)
     {
         folder = requestingFolder;
+        placeholderText.text = string.Format("Enter Word with {0} Characters...", folder.keyword.Length);
         OnShowPrompt.Invoke();
     }
 
@@ -34,6 +37,6 @@ public class Prompt : MonoBehaviour
         if (folder.TryKeyword(input))
             OnClosePrompt.Invoke();
         else
-            GetComponent<UITransformAnimator>().StartAnimationForward();
+            OnError.Invoke();
     }
 }

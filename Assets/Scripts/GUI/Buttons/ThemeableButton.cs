@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using FMODUnity;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
@@ -16,7 +17,7 @@ public class ThemeableButton : MonoBehaviour, ITooltipable, IPointerDownHandler,
     public Image selectionImage;
 
     [Header("Buttons Sounds")]
-    public string clickSound;
+    public EventReference soundReference;
     public string hoverSound;
     public string pointerDownSound = "";
 
@@ -48,7 +49,7 @@ public class ThemeableButton : MonoBehaviour, ITooltipable, IPointerDownHandler,
 
         text.GetComponent<LocalizedText>().textType = TextType.Button;
 
-        go.GetComponent<ThemeableButton>().clickSound = "defaultClickSound";
+        //go.GetComponent<ThemeableButton>().clickSound = "defaultClickSound";
         go.GetComponent<ThemeableButton>().hoverSound = "defaultHoverSound";
 
         // Ensure it gets reparented if this was a context click (otherwise does nothing)
@@ -62,7 +63,7 @@ public class ThemeableButton : MonoBehaviour, ITooltipable, IPointerDownHandler,
     void Start()
     {
         button = GetComponent<Button>();
-        button.onClick.AddListener(PlayButtonClickSound);
+        //button.onClick.AddListener(PlayButtonClickSound);
         
         if(needsDoubleClick)
             button.interactable = false;
@@ -119,7 +120,7 @@ public class ThemeableButton : MonoBehaviour, ITooltipable, IPointerDownHandler,
 
     private void PlayButtonClickSound()
     {
-        PlayButtonSound(clickSound);
+        RuntimeManager.PlayOneShot(soundReference);
     }
 
     public void PlayButtonSound(string soundname)
@@ -139,14 +140,17 @@ public class ThemeableButton : MonoBehaviour, ITooltipable, IPointerDownHandler,
         if (needsDoubleClick)
         {
             if (lastClick + clickInterval > Time.time)
+            {
+                PlayButtonClickSound();
                 GetComponent<Button>().onClick.Invoke();
+            }
             else
             {
                 lastClick = Time.time;
                 selectionImage.color = button.colors.pressedColor;
             }
         }
-        //else
-            //GetComponent<Button>().onClick.Invoke();
+        else
+            PlayButtonClickSound();
     }
 }

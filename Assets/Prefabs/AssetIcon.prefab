@@ -124,7 +124,13 @@ MonoBehaviour:
   tooltipKeyword: 
   backgroundImage: {fileID: 0}
   selectionImage: {fileID: 8980119381782346549}
-  clickSound: defaultClickSound
+  soundReference:
+    Guid:
+      Data1: 900223345
+      Data2: 1277903902
+      Data3: 662096009
+      Data4: -755756603
+    Path: event:/btn_open
   hoverSound: defaultHoverSound
   pointerDownSound: 
   OnBeginHoverEvent:

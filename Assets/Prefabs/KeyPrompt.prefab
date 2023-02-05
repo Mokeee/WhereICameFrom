@@ -605,6 +605,7 @@ GameObject:
   - component: {fileID: 3580780412172265616}
   - component: {fileID: 9039221631405562207}
   - component: {fileID: 3635675403311394420}
+  - component: {fileID: 127807560576569088}
   m_Layer: 5
   m_Name: KeyPrompt
   m_TagString: Untagged
@@ -777,6 +778,46 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3719048361958609535}
+        m_TargetAssemblyTypeName: AudioOneshot, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnError:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3635675403311394420}
+        m_TargetAssemblyTypeName: UITransformAnimator, Assembly-CSharp
+        m_MethodName: StartAnimationForward
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 127807560576569088}
+        m_TargetAssemblyTypeName: AudioOneshot, Assembly-CSharp
+        m_MethodName: PlayAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  placeholderText: {fileID: 3635675402242749509}
   inputText: {fileID: 3635675404086993239}
 --- !u!114 &9039221631405562207
 MonoBehaviour:
@@ -932,6 +973,25 @@ MonoBehaviour:
   TranslationTarget: {x: 0, y: 0}
   ScaleTarget: {x: 0, y: 0, z: 0}
   RotationTarget: {x: 0, y: 0, z: 0}
+--- !u!114 &127807560576569088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3635675404030016571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2b707dd61a4f149a6d5fc982a7846a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundReference:
+    Guid:
+      Data1: 1288759591
+      Data2: 1336264038
+      Data3: 1588593830
+      Data4: 1444948900
+    Path: event:/sfx_denied
 --- !u!1 &3635675404086993241
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +1004,7 @@ GameObject:
   - component: {fileID: 3635675404086993237}
   - component: {fileID: 3635675404086993236}
   - component: {fileID: 3635675404086993239}
+  - component: {fileID: 3719048361958609535}
   m_Layer: 5
   m_Name: Prompt
   m_TagString: Untagged
@@ -1132,6 +1193,25 @@ MonoBehaviour:
   m_isRichTextEditingAllowed: 0
   m_LineLimit: 0
   m_InputValidator: {fileID: 0}
+--- !u!114 &3719048361958609535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3635675404086993241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2b707dd61a4f149a6d5fc982a7846a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundReference:
+    Guid:
+      Data1: 910571969
+      Data2: 1146149014
+      Data3: -990534483
+      Data4: 638476358
+    Path: event:/sfx_unlocked
 --- !u!1 &3635675404107321656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,7 +1364,13 @@ MonoBehaviour:
   tooltipKeyword: 
   backgroundImage: {fileID: 0}
   selectionImage: {fileID: 0}
-  clickSound: defaultClickSound
+  soundReference:
+    Guid:
+      Data1: 948113025
+      Data2: 1227824167
+      Data3: 1697987248
+      Data4: -1431815022
+    Path: event:/btn_close
   hoverSound: defaultHoverSound
   pointerDownSound: 
   OnBeginHoverEvent:
@@ -1580,7 +1666,13 @@ MonoBehaviour:
   tooltipKeyword: 
   backgroundImage: {fileID: 0}
   selectionImage: {fileID: 0}
-  clickSound: defaultClickSound
+  soundReference:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   hoverSound: defaultHoverSound
   pointerDownSound: 
   OnBeginHoverEvent:
@@ -1683,7 +1775,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 62.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

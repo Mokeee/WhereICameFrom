@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class AudioMinigame : MonoBehaviour
 {
     public List<int> solution;
+    public List<Toggle> states;
 
     public UnityEvent OnWrongEvent = new UnityEvent();
     public UnityEvent OnCorrectEvent = new UnityEvent();
@@ -15,10 +17,13 @@ public class AudioMinigame : MonoBehaviour
     public void Reset()
     {
         current = new List<int>();
+        foreach (var t in states)
+            t.isOn = false;
     }
 
     public void RegisterAnswer(int index)
     {
+        states[current.Count].isOn = true;
         current.Add(index);
 
         if (current.Count == solution.Count)
