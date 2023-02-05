@@ -14,7 +14,7 @@ public class TextMonospacer : MonoBehaviour
         {
             string formatted = string.Format("<mspace={0}em>{1}", emSpacing, text);
             label.text = formatted;
-            label.caretPosition = formatted.Length;
+            label.MoveTextEnd(false);
         }
     }
 }
