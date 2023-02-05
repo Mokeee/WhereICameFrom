@@ -29,7 +29,9 @@ public class AudioPlayer : MonoBehaviour
         instance.getDescription(out eventDescription);
         eventDescription.getLength(out clipLength);
         instance.start();
-        label.text = pauseLabel;
+
+        if(label != null)
+            label.text = pauseLabel;
         isStopped = false;
     }
 
@@ -48,10 +50,14 @@ public class AudioPlayer : MonoBehaviour
         }
         bool paused = false;
         instance.getPaused(out paused);
-        if(paused)
-            label.text = pauseLabel;
-        else
-            label.text = playLabel;
+
+        if (label != null)
+        {
+            if (paused)
+                label.text = pauseLabel;
+            else
+                label.text = playLabel;
+        }
 
         instance.setPaused(!paused);
     }
@@ -60,7 +66,8 @@ public class AudioPlayer : MonoBehaviour
     {
         instance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         instance.release();
-        label.text = playLabel;
+        if (label != null)
+            label.text = playLabel;
         isStopped = true;
     }
 
