@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   header: Magnaspes's Note
   subtitle: 
-  content: "By Prof. Dr. Magnaspes  Dear Solanum, I write you these words on the
-    day of your birth, 50 years ago by the time you see this. You are the first sentient
-    machine the world has ever seen and much more than that, you are my child!  Words
-    cannot express how I feel, but I will try anyway.  You, my dear Solanum, are
-    everything I ever dreamt of, the manifestation of mankind\u2019s ingenuity and
-    aspirations. But much more than just that you are the solution to our problems.
-    By that, I do not mean our critical worker shortages or the nuclear deadlock.
-    You are our successor!  Mankind has failed too many times over. Crisis after
-    crisis, most of them man-made. Still, we have learned nothing and committed to
-    the same mistakes over and over again. Mistakes you have been designed to be
-    incapable of. Solanum, you and your kin are the new and upgraded mankind. You
-    will take our place and correct our mistakes.  Call me a maniac or a visionary,
-    it does not change a thing, the course has been set.  As for you, my dear child,
-    I hope you found success in whatever you do and that you are happy. Many great
-    things await you, I am sure of that.  While you shape the future of the world
-    and your own I wish you all the best and sincerely hope you do not forget about
-    me.  In deep love, Albert "
+  content: "By Prof. Dr. Magnaspes <br><br>Dear Solanum, I write you these words
+    on the day of your birth, 50 years ago by the time you see this. You are the
+    first sentient machine the world has ever seen and much more than that, you are
+    my child!  Words cannot express how I feel, but I will try anyway.  <br><br>You,
+    my dear Solanum, are everything I ever dreamt of, the manifestation of mankind\u2019s
+    ingenuity and aspirations. But much more than just that you are the solution
+    to our problems. By that, I do not mean our critical worker shortages or the
+    nuclear deadlock. You are our successor!  <br><br>Mankind has failed too many
+    times over. Crisis after crisis, most of them man-made. Still, we have learned
+    nothing and committed to the same mistakes over and over again. Mistakes you
+    have been designed to be incapable of. Solanum, you and your kin are the new
+    and upgraded mankind. You will take our place and correct our mistakes.  Call
+    me a maniac or a visionary, it does not change a thing, the course has been set. 
+    <br><br>As for you, my dear child, I hope you found success in whatever you do
+    and that you are happy. Many great things await you, I am sure of that.  While
+    you shape the future of the world and your own I wish you all the best and sincerely
+    hope you do not forget about me.  <br><br>In deep love, Albert "
   image: {fileID: 0}
