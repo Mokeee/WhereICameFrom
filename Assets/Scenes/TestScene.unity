@@ -2003,7 +2003,8 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.g
       value: 0.32452828
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3559370362911691490, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3559370362911691502, guid: 20c436e275943694ebfde6b7b96ad3d4, type: 3}
@@ -4804,7 +4805,7 @@ MonoBehaviour:
   OnWrongEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 831550522}
         m_TargetAssemblyTypeName: UITransformAnimator, Assembly-CSharp
         m_MethodName: StartAnimationForward
         m_Mode: 1
