@@ -10,6 +10,8 @@ https://www.flaticon.com/free-icons/golden-eagle : created by shmai - Flaticon
 
 https://www.flaticon.com/free-icons/arrow : created by Freepik - Flaticon
 
+https://www.flaticon.com/free-icons/setting : Setting icons created by Phoenix Group - Flaticon
+
 Icons by icons8
 
 
