@@ -991,7 +991,7 @@ MonoBehaviour:
       Data2: 1336264038
       Data3: 1588593830
       Data4: 1444948900
-    Path: event:/sfx_denied
+    Path: event:/OS SFX/sfx_denied
 --- !u!1 &3635675404086993241
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,7 +1211,7 @@ MonoBehaviour:
       Data2: 1146149014
       Data3: -990534483
       Data4: 638476358
-    Path: event:/sfx_unlocked
+    Path: event:/OS SFX/sfx_unlocked
 --- !u!1 &3635675404107321656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,7 +1370,7 @@ MonoBehaviour:
       Data2: 1227824167
       Data3: 1697987248
       Data4: -1431815022
-    Path: event:/btn_close
+    Path: event:/OS SFX/btn_close
   hoverSound: defaultHoverSound
   pointerDownSound: 
   OnBeginHoverEvent:

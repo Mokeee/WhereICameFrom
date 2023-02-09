@@ -799,7 +799,7 @@ MonoBehaviour:
       Data2: 1227824167
       Data3: 1697987248
       Data4: -1431815022
-    Path: event:/btn_close
+    Path: event:/OS SFX/btn_close
   hoverSound: defaultHoverSound
   pointerDownSound: 
   OnBeginHoverEvent:

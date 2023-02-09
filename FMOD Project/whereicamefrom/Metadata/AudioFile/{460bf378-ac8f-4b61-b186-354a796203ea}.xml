@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{460bf378-ac8f-4b61-b186-354a796203ea}">
 		<property name="assetPath">
-			<value>file_hidden_audio.wav</value>
+			<value>Level 2/file_hidden_audio.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

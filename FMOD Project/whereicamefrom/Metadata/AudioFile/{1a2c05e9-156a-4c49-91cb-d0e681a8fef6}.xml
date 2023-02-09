@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1a2c05e9-156a-4c49-91cb-d0e681a8fef6}">
 		<property name="assetPath">
-			<value>sfx_ADA_first_words.wav</value>
+			<value>Level 2/sfx_ADA_first_words.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

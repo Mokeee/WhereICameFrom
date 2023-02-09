@@ -2686,7 +2686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Path
-      value: event:/file_dialogue
+      value: event:/Level 3/file_dialogue
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Guid.Data1
@@ -5653,7 +5653,7 @@ MonoBehaviour:
       Data2: 1146149014
       Data3: -990534483
       Data4: 638476358
-    Path: event:/sfx_unlocked
+    Path: event:/OS SFX/sfx_unlocked
 --- !u!114 &456491948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5672,7 +5672,7 @@ MonoBehaviour:
       Data2: 1336264038
       Data3: 1588593830
       Data4: 1444948900
-    Path: event:/sfx_denied
+    Path: event:/OS SFX/sfx_denied
 --- !u!1001 &459064178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7760,7 +7760,7 @@ MonoBehaviour:
       Data2: 1316878016
       Data3: 61662398
       Data4: 797958137
-    Path: event:/OS_startup
+    Path: event:/OS SFX/OS_startup
 --- !u!1001 &559910220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10525,7 +10525,7 @@ MonoBehaviour:
       Data2: 1229854455
       Data3: 1475170204
       Data4: -595416854
-    Path: event:/sfx_note_01
+    Path: event:/Level 2/sfx_note_01
 --- !u!1 &741370564
 GameObject:
   m_ObjectHideFlags: 0
@@ -12970,7 +12970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Path
-      value: event:/file_hidden_audio
+      value: event:/Level 2/file_hidden_audio
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Guid.Data1
@@ -13796,7 +13796,7 @@ MonoBehaviour:
       Data2: 1326630220
       Data3: -1042286965
       Data4: -1986692672
-    Path: event:/text_loop
+    Path: event:/OS SFX/text_loop
   label: {fileID: 0}
   playLabel: 
   pauseLabel: 
@@ -14054,7 +14054,7 @@ MonoBehaviour:
       Data2: 1159474658
       Data3: 498310
       Data4: 1801660967
-    Path: event:/sfx_note_02
+    Path: event:/Level 2/sfx_note_02
 --- !u!114 &1095581572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14420,7 +14420,7 @@ MonoBehaviour:
       Data2: 1100786179
       Data3: -267931495
       Data4: -1615075206
-    Path: event:/sfx_note_03
+    Path: event:/Level 2/sfx_note_03
 --- !u!114 &1123779302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16484,7 +16484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Path
-      value: event:/sfx_ADA_first_words
+      value: event:/Level 2/sfx_ADA_first_words
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Guid.Data1
@@ -17439,7 +17439,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Path
-      value: event:/file_hidden_audio
+      value: event:/Level 2/file_hidden_audio
       objectReference: {fileID: 0}
     - target: {fileID: 6435596311972833170, guid: 1ef27e6a2492a5b4a8a3893cb321698d, type: 3}
       propertyPath: soundReference.Guid.Data1
@@ -22331,7 +22331,7 @@ MonoBehaviour:
       Data2: 1320474262
       Data3: -656218958
       Data4: -336575190
-    Path: event:/sfx_note_04
+    Path: event:/Level 2/sfx_note_04
 --- !u!114 &1824343042
 MonoBehaviour:
   m_ObjectHideFlags: 0
