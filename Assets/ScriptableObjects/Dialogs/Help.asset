@@ -17,6 +17,6 @@ MonoBehaviour:
   content: <size=180%><align="center"></uppercase><b><u>Console Help</u></b></uppercase></size></align><br><br><size=80%>To
     open the PrometheOS console press <color="red>'F1'</color><br><br></size><b>Commands</b><br><size=80%><color="red">hint
     <i><color="blue">--folder</color></i></color><pos=40%>Gives hint about selected
-    folder's challenges. <i>e.g. hint --datura</i><br><color="red">solution <i><color="blue">--folder</color></i></color><pos=40%>Returns
-    the password for a selected folder. <i>e.g. solution --datura</i><br></size>
+    folder's challenges. <i>e.g. hint --datura</i><br><color="red">password <i><color="blue">--folder</color></i></color><pos=40%>Returns
+    the password for a selected folder. <i>e.g. password --datura</i><br></size>
   image: {fileID: 0}

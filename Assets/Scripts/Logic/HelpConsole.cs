@@ -67,9 +67,9 @@ public class HelpConsole : MonoBehaviour
             {
                 PrintCommand(hints, "hint", parameter);
             }
-            else if (matches[0].Value == "solution")
+            else if (matches[0].Value == "password")
             {
-                PrintCommand(solutions, "solution", parameter);
+                PrintCommand(solutions, "password", parameter);
             }
             else
                 logLabel.text += string.Format(error, " <color=\"blue\">" + matches[0].Value+ "</color>", "...");
