@@ -14,10 +14,12 @@ public class FolderUI : MonoBehaviour
     public Image spriteHolder;
 
     public string keyword;
+    public int levelIndex;
 
     [SerializeField]
     public ShowPromptEvent OnShowPrompt = new ShowPromptEvent();
     public UnityEvent OnShowContent = new UnityEvent();
+    public FloatEvent OnUnlockedFolder = new FloatEvent();
 
     private void Start()
     {
@@ -38,6 +40,7 @@ public class FolderUI : MonoBehaviour
 
         if (unlocked)
         {
+            OnUnlockedFolder.Invoke(levelIndex);
             OnShowContent.Invoke();
             UpdateSprite();
         }

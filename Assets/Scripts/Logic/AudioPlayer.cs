@@ -12,6 +12,7 @@ public class AudioPlayer : MonoBehaviour
     public FloatEvent OnPlayback = new FloatEvent();
     public float volume;
     public EventReference soundReference;
+    public FMOD.Studio.STOP_MODE stopMode = FMOD.Studio.STOP_MODE.IMMEDIATE;
     public TextMeshProUGUI label;
     private EventInstance instance;
 
@@ -40,6 +41,11 @@ public class AudioPlayer : MonoBehaviour
         instance.setTimelinePosition((int)(clipLength * percentage));
     }
 
+    public void SetIntensity(float intensity)
+    {
+        instance.setParameterByName("Intensity", intensity);
+    }
+
     public void ToggleAudio()
     {
         if(isStopped)
@@ -64,7 +70,7 @@ public class AudioPlayer : MonoBehaviour
 
     public void StopAudio()
     {
-        instance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        instance.stop(stopMode);
         instance.release();
         if (label != null)
             label.text = playLabel;
