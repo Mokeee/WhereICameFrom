@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{6658c17e-dd54-49f9-9ef4-266a39abf341}">
+	<object class="AudioFile" id="{b04839cf-aad9-4d37-8241-775affa4842c}">
 		<property name="assetPath">
-			<value>OS SFX/OS_startup.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>OS SFX/login_success.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>14.294583333333334</value>
+			<value>2.0547291666666667</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{cd5ac714-2410-4afc-8a8c-11c76a37a55c}</destination>
