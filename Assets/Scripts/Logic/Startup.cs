@@ -44,7 +44,7 @@ public class Startup : MonoBehaviour
 
     private IEnumerator StartUpSequenceIntro()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         yield return new WaitForSeconds(textDelay);
         //Show Intro Text

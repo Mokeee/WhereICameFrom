@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class EncryptedNote : MonoBehaviour
@@ -13,6 +14,7 @@ public class EncryptedNote : MonoBehaviour
     public int skipToPosition;
 
     public TextMeshProUGUI note;
+    public UnityEvent OnNoteEncrypted = new UnityEvent();
 
     private string cleanfeed;
     private string encrypted;
@@ -53,8 +55,12 @@ public class EncryptedNote : MonoBehaviour
     {
         if (Keyboard.current.tabKey.isPressed && Keyboard.current.cKey.isPressed)
         {
-            encrypt = false;
-            UpdateNote();
+            if(encrypt)
+            {
+                encrypt = false;
+                OnNoteEncrypted.Invoke();
+                UpdateNote();
+            }
         }
     }
 }
