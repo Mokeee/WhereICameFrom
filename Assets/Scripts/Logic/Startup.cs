@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class Startup : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Startup : MonoBehaviour
     public Image reflectionOverlay;
     public Image borderImage;
     public GameObject screenParent;
+    public RawImage video;
+    public VideoPlayer videoPlayer;
 
     public UnityEvent OnStartIntro = new UnityEvent();
     public UnityEvent OnStartBoot = new UnityEvent();
@@ -99,5 +102,22 @@ public class Startup : MonoBehaviour
         Cursor.visible = true;
 
         OnStartUpLogIn.Invoke();
+    }
+
+    public void StartVideo()
+    {
+        video.enabled = true;
+        videoPlayer.Play();
+        reflectionOverlay.color = new Color(1, 1, 1, 0.15f);
+        borderImage.color = Color.white;
+        videoPlayer.loopPointReached += EndVideo;
+    }
+
+    public void EndVideo(VideoPlayer player)
+    {
+        video.enabled = false;
+        StartLogIn();
+
+        videoPlayer.loopPointReached -= EndVideo;
     }
 }

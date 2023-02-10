@@ -74,6 +74,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1497
+--- !u!114 &-8382123172816936655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/OS SFX/startup
+  m_EditorClassIdentifier: 
+  Path: event:/OS SFX/startup
+  Guid:
+    Data1: -567546035
+    Data2: 1137184471
+    Data3: 1310356360
+    Data4: 1238660896
+  Banks:
+  - {fileID: -4165501768451518595}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7099
+--- !u!114 &-8179954410522659352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/OS SFX/login_typing
+  m_EditorClassIdentifier: 
+  Path: event:/OS SFX/login_typing
+  Guid:
+    Data1: -1792506744
+    Data2: 1160662251
+    Data3: -1372398146
+    Data4: -472066022
+  Banks:
+  - {fileID: -4165501768451518595}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2969
 --- !u!114 &-7310343770678487212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +179,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-6533800949394098124
+--- !u!114 &-6009671217987978504
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,23 +189,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/OS SFX/OS_startup
+  m_Name: event:/OS SFX/login_success
   m_EditorClassIdentifier: 
-  Path: event:/OS SFX/OS_startup
+  Path: event:/OS SFX/login_success
   Guid:
-    Data1: -714374792
-    Data2: 1316878016
-    Data3: 61662398
-    Data4: 797958137
+    Data1: 1458035179
+    Data2: 1267183867
+    Data3: -1405385072
+    Data4: -993495485
   Banks:
   - {fileID: -4165501768451518595}
-  IsStream: 1
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 14294
+  Length: 2054
 --- !u!114 &-5891917079687938361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,10 +275,10 @@ MonoBehaviour:
   Path: FMOD Project/whereicamefrom/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638116201620000000
+  lastModified: 638116285980000000
   FileSizes:
   - Name: Desktop
-    Value: 1476160
+    Value: 1477952
   Exists: 1
 --- !u!114 &-3309066703014252145
 MonoBehaviour:
@@ -336,17 +390,19 @@ MonoBehaviour:
   - {fileID: -791026420840551012}
   - {fileID: 8125453312399108922}
   - {fileID: 5879174722588491163}
-  - {fileID: -6533800949394098124}
   - {fileID: -2157125791218679920}
   - {fileID: -8741238065838705935}
   - {fileID: 5316321586022337095}
   - {fileID: -7310343770678487212}
+  - {fileID: -8382123172816936655}
+  - {fileID: -8179954410522659352}
+  - {fileID: -6009671217987978504}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8479195939530718497}
   StringsBanks:
   - {fileID: 7319422345397239714}
-  cacheTime: 638116201620000000
+  cacheTime: 638116285980000000
   cacheVersion: 131601
 --- !u!114 &1395335833158910612
 MonoBehaviour:
@@ -418,10 +474,10 @@ MonoBehaviour:
   Path: FMOD Project/whereicamefrom/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638116201620000000
+  lastModified: 638116285980000000
   FileSizes:
   - Name: Desktop
-    Value: 3404768
+    Value: 3405152
   Exists: 1
 --- !u!114 &4407146235478137482
 MonoBehaviour:
@@ -546,10 +602,10 @@ MonoBehaviour:
   Path: FMOD Project/whereicamefrom/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638116201620000000
+  lastModified: 638116285980000000
   FileSizes:
   - Name: Desktop
-    Value: 1674
+    Value: 1776
   Exists: 1
 --- !u!114 &8125453312399108922
 MonoBehaviour:
