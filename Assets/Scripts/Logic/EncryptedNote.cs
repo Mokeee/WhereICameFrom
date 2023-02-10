@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
@@ -13,9 +14,12 @@ public class EncryptedNote : MonoBehaviour
     public bool encrypt;
     public int skipToPosition;
 
-    public TextMeshProUGUI note;
+    public Image note;
     public UnityEvent OnNoteEncrypted = new UnityEvent();
 
+    public Sprite cleanfeed;
+    public Sprite encrypted;
+    /*
     private string cleanfeed;
     private string encrypted;
 
@@ -49,6 +53,14 @@ public class EncryptedNote : MonoBehaviour
             note.text = encrypted;
         else
             note.text = cleanfeed;
+    }
+    */
+    public void UpdateNote()
+    {
+        if (encrypt)
+            note.sprite = encrypted;
+        else
+            note.sprite = cleanfeed;
     }
 
     private void Update()
