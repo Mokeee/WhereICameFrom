@@ -53,7 +53,7 @@
 			<destination>{37818ad8-264f-4f56-a0b2-5f831fa02d44}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{2d04cedd-71cf-4c17-9511-7226c02d953d}</destination>
+			<destination>{c581683c-30db-49db-890c-2f996ee696f5}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0cd8fecd-c3df-4ec3-98e6-4adbcbadde3c}" />
@@ -96,13 +96,16 @@
 	<object class="MixerBusPanner" id="{37818ad8-264f-4f56-a0b2-5f831fa02d44}" />
 	<object class="SingleSound" id="{32781283-73cf-4520-9f00-58203765431e}">
 		<property name="length">
-			<value>55.523604166666665</value>
+			<value>42.088250000000002</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{cd9ee89c-f580-4585-bb5d-02b1ebeeb1ca}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5c745e5a-6aca-4330-81bf-a646b2776bf4}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -137,8 +140,11 @@
 		<property name="initialValue">
 			<value>-80</value>
 		</property>
+		<property name="attackTime">
+			<value>192.307709</value>
+		</property>
 		<property name="attackShape">
-			<value>-0.628728509</value>
+			<value>-0.792639911</value>
 		</property>
 		<property name="releaseTime">
 			<value>4000</value>

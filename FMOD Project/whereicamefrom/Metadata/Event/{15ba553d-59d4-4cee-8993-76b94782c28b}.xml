@@ -58,7 +58,7 @@
 			<destination>{e09d78c7-8310-4fac-9798-08708cc27e5c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{2d04cedd-71cf-4c17-9511-7226c02d953d}</destination>
+			<destination>{c581683c-30db-49db-890c-2f996ee696f5}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{89e300df-411f-45eb-b0af-0ba634e624d1}" />
@@ -130,7 +130,7 @@
 	<object class="MixerBusPanner" id="{e09d78c7-8310-4fac-9798-08708cc27e5c}" />
 	<object class="SingleSound" id="{87498ed6-9b88-4092-b30f-47f08d4a00de}">
 		<property name="length">
-			<value>23.294125000000001</value>
+			<value>20.571458333333332</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{e2e0d7a9-f6c6-4827-98e7-487140e28e3c}</destination>
@@ -160,7 +160,7 @@
 	</object>
 	<object class="SingleSound" id="{9beccbf6-fa0e-4d20-9aa0-9d3372e931b7}">
 		<property name="length">
-			<value>23.294125000000001</value>
+			<value>20.571437499999998</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{81f77f52-8b4f-44de-b267-b62990f7da57}</destination>
@@ -193,7 +193,7 @@
 	</object>
 	<object class="SingleSound" id="{cc236322-00e0-487d-acc6-5ccf2c945d8c}">
 		<property name="length">
-			<value>23.294145833333335</value>
+			<value>20.571458333333332</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{7e4072cb-b23c-4430-9d60-aa8c1eab7e12}</destination>
@@ -224,7 +224,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>23.294125000000001</value>
+			<value>20.571458333333332</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{5a2c23f6-24d2-4a98-90e9-bff66547762e}</destination>
@@ -318,7 +318,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-5.00000381</value>
+			<value>-14.5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{0eadf2ae-ec42-4c24-be21-30347f59b6e4}">
@@ -340,7 +340,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-58.3333321</value>
 		</property>
 		<property name="curveShape">
 			<value>0.5</value>
@@ -354,7 +354,7 @@
 			<value>1.9990439770554493</value>
 		</property>
 		<property name="value">
-			<value>-9</value>
+			<value>-12</value>
 		</property>
 	</object>
 </objects>
