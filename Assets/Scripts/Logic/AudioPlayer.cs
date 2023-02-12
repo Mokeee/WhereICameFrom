@@ -13,6 +13,7 @@ public class AudioPlayer : MonoBehaviour
     public float volume;
     public EventReference soundReference;
     public FMOD.Studio.STOP_MODE stopMode = FMOD.Studio.STOP_MODE.IMMEDIATE;
+    public bool isLooping;
     public TextMeshProUGUI label;
     private EventInstance instance;
 
@@ -85,7 +86,7 @@ public class AudioPlayer : MonoBehaviour
         instance.getTimelinePosition(out tpos);
         OnPlayback.Invoke(tpos / (clipLength * 1.0f));
 
-        if (tpos / (clipLength * 1.0f) >= 1.0f)
+        if (tpos / (clipLength * 1.0f) >= 1.0f && !isLooping)
             StopAudio();
     }
 }

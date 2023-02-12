@@ -14623,6 +14623,7 @@ MonoBehaviour:
       Data4: -1986692672
     Path: event:/OS SFX/text_loop
   stopMode: 1
+  isLooping: 0
   label: {fileID: 0}
   playLabel: 
   pauseLabel: 
@@ -16637,6 +16638,7 @@ MonoBehaviour:
       Data4: 1173960476
     Path: event:/Music/mus_intro_loop
   stopMode: 0
+  isLooping: 0
   label: {fileID: 0}
   playLabel: 
   pauseLabel: 
@@ -21616,6 +21618,7 @@ MonoBehaviour:
       Data4: -1950186937
     Path: event:/Music/Ambience
   stopMode: 0
+  isLooping: 1
   label: {fileID: 0}
   playLabel: 
   pauseLabel: 
