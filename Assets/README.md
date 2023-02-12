@@ -14,6 +14,8 @@ https://www.flaticon.com/free-icons/setting : Setting icons created by Phoenix G
 
 Icons by icons8
 
+Typing Sound by newlocknew - https://freesound.org/s/613096/
+
 
 #### Thanks
 Thanks to our brave Playtesters Angie & Phillip

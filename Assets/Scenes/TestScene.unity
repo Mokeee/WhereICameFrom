@@ -1080,6 +1080,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 88428878}
+        m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+        m_MethodName: HideFromEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 564530943}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   cleanfeed: {fileID: 21300000, guid: 2d6082b24584df942813637d40784460, type: 3}
   encrypted: {fileID: 21300000, guid: c297aedbb2cc5d549a2d45a4c7953b7f, type: 3}
 --- !u!114 &88428878
@@ -1386,6 +1410,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3331939789861159027, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
+      propertyPath: unlockSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c9d45160f410084cbc2dc13e3fc7cd3, type: 3}
+    - target: {fileID: 3331939789861159027, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
       propertyPath: OnShowPrompt.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
       objectReference: {fileID: 0}
@@ -1571,7 +1599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4562715597883139642, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
       propertyPath: m_text
-      value: "\u03DD\u03DE\u03E0\u03E2\u03C7"
+      value: Note
       objectReference: {fileID: 0}
     - target: {fileID: 4562715597883139642, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
       propertyPath: m_fontSize
@@ -8244,6 +8272,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3712159033090792380, guid: 1ff0e993b79d63043a5f1a623bade37f, type: 3}
   m_PrefabInstance: {fileID: 559910220}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &564530943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4562715595948004037, guid: 2d700601dfaa5c849ae439efb5ac8d83, type: 3}
+  m_PrefabInstance: {fileID: 128939852}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &576355039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14367,7 +14400,7 @@ MonoBehaviour:
   - 'Ok, starting archive systems '
   - 'Just another day at work '
   - 'or is it? '
-  - 'Yesterday I found this strange document '
+  - Yesterday I found this strange note
   - "Maybe I should find out what it is, at least the author\u2019s name seems strangely
     familiar. "
   - "Maybe there are clues to its encryption somewhere in the archive\u2019s files. "
